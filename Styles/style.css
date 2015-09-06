@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Roboto+Slab|Lora|Lato);
+body {
+  margin: 0px; }
+
+#outerwrapper {
+  width: 100%;
+  height: 100%; }
+  #outerwrapper #flagwrapper {
+    font-family: "Quicksand";
+    height: 150px;
+    text-align: center; }
+    #outerwrapper #flagwrapper #location {
+      height: auto;
+      width: auto;
+      font-size: 14px;
+      display: inline-block; }
+    #outerwrapper #flagwrapper #date {
+      font-size: 12px;
+      width: 100%;
+      height: 14px;
+      font-size: 14px; }
+    #outerwrapper #flagwrapper #flag {
+      margin: auto;
+      font-size: 100px;
+      color: #009933;
+      display: inline-block; }
+      #outerwrapper #flagwrapper #flag a {
+        transition: text-shadow 0.5s; }
+        #outerwrapper #flagwrapper #flag a:link {
+          text-decoration: none;
+          color: #009933; }
+        #outerwrapper #flagwrapper #flag a:visited {
+          text-decoration: none;
+          color: #009933; }
+        #outerwrapper #flagwrapper #flag a:hover {
+          text-shadow: 0px 0px 10px #009933; }
+    #outerwrapper #flagwrapper #social {
+      display: inline-block; }
+      #outerwrapper #flagwrapper #social ul {
+        list-style-type: none;
+        padding-left: 0px; }
+        #outerwrapper #flagwrapper #social ul li {
+          display: inline; }
+  #outerwrapper .affix {
+    background-color: #009933;
+    height: 50px;
+    font-family: "Quicksand";
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: white; }
+    #outerwrapper .affix #WSSlist {
+      display: inline-block;
+      float: left;
+      width: 80px;
+      font-size: 30px;
+      height: 100%;
+      text-align: center; }
+      #outerwrapper .affix #WSSlist a {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: middle; }
+        #outerwrapper .affix #WSSlist a:link {
+          text-decoration: none;
+          color: white; }
+        #outerwrapper .affix #WSSlist a:visited {
+          text-decoration: none;
+          color: white; }
+        #outerwrapper .affix #WSSlist a:hover {
+          text-shadow: 0px 0px 10px white; }
+    #outerwrapper .affix #list {
+      display: inline-block;
+      float: left;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+      #outerwrapper .affix #list ul {
+        list-style-type: none;
+        margin-left: 0px;
+        padding: 0; }
+        #outerwrapper .affix #list ul li {
+          display: inline;
+          margin: 0px 20px 0px 20px;
+          height: 50px;
+          text-align: center;
+          height: 50px; }
+          #outerwrapper .affix #list ul li:hover {
+            text-shadow: 0px 0px 20px white; }
+    #outerwrapper .affix #search {
+      display: inline-block;
+      float: right;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 15px; }
+      #outerwrapper .affix #search input {
+        border: none;
+        border-radius: 5px;
+        padding: 3px; }
+    #outerwrapper .affix #list {
+      display: inline-block;
+      float: left;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+      #outerwrapper .affix #list ul {
+        list-style-type: none;
+        margin-left: 0px;
+        padding: 0; }
+        #outerwrapper .affix #list ul li {
+          display: inline;
+          margin: 0px 20px 0px 20px;
+          height: 50px;
+          text-align: center;
+          height: 50px; }
+          #outerwrapper .affix #list ul li:hover {
+            text-shadow: 0px 0px 20px white; }
+      #outerwrapper .affix #list #search {
+        display: inline-block;
+        float: right; }
+        #outerwrapper .affix #list #search input {
+          border: none;
+          border-radius: 5px; }
+  #outerwrapper .header {
+    width: 100%;
+    background-color: #009933;
+    height: 50px;
+    font-family: "Quicksand";
+    margin: auto;
+    color: white;
+    position: static;
+    margin-left: 0px; }
+    #outerwrapper .header #WSSlist {
+      display: inline-block;
+      float: left;
+      width: 80px;
+      font-size: 30px;
+      height: 100%;
+      text-align: center; }
+      #outerwrapper .header #WSSlist a {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: middle; }
+        #outerwrapper .header #WSSlist a:link {
+          text-decoration: none;
+          color: white; }
+        #outerwrapper .header #WSSlist a:visited {
+          text-decoration: none;
+          color: white; }
+        #outerwrapper .header #WSSlist a:hover {
+          text-shadow: 0px 0px 10px white; }
+    #outerwrapper .header #list {
+      display: inline-block;
+      float: left;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+      #outerwrapper .header #list ul {
+        list-style-type: none;
+        margin-left: 0px;
+        padding: 0; }
+        #outerwrapper .header #list ul li {
+          display: inline;
+          margin: 0px 20px 0px 20px;
+          height: 50px;
+          text-align: center;
+          height: 50px; }
+          #outerwrapper .header #list ul li:hover {
+            text-shadow: 0px 0px 20px white; }
+    #outerwrapper .header #search {
+      display: inline-block;
+      float: right;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 15px; }
+      #outerwrapper .header #search input {
+        border: none;
+        border-radius: 5px;
+        padding: 3px; }
+  #outerwrapper #centralcontent {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: "Quicksand"; }
+    #outerwrapper #centralcontent p {
+      border-bottom: 1px solid #A9A9A9; }
+    #outerwrapper #centralcontent #top {
+      height: 300px;
+      margin-bottom: 25px; }
+      #outerwrapper #centralcontent #top #topstory {
+        display: inline-block;
+        background-color: #E8E8E8;
+        width: 65%;
+        text-align: center;
+        height: 100%;
+        float: left; }
+      #outerwrapper #centralcontent #top #recent {
+        display: inline-block;
+        background-color: #E8E8E8;
+        width: 30%;
+        text-align: center;
+        height: 100%;
+        float: right; }
+      #outerwrapper #centralcontent #top p {
+        padding-bottom: 16px; }
+    #outerwrapper #centralcontent .adjust {
+      margin-top: 80px; }
+    #outerwrapper #centralcontent #mid {
+      height: 100px;
+      background-color: #E8E8E8;
+      margin: 0px 0px 25px 0px; }
+      #outerwrapper #centralcontent #mid .ads {
+        width: 45%;
+        display: inline-block;
+        text-align: center;
+        height: 100%; }
+        #outerwrapper #centralcontent #mid .ads p {
+          border: none;
+          height: 100%; }
+        #outerwrapper #centralcontent #mid .ads:first-child {
+          float: left; }
+        #outerwrapper #centralcontent #mid .ads:last-child {
+          float: right; }
+    #outerwrapper #centralcontent .sectionwrapper {
+      clear: both;
+      height: 500px;
+      text-align: center;
+      margin-bottom: 25px; }
+      #outerwrapper #centralcontent .sectionwrapper .section {
+        display: inline-block;
+        height: 100%;
+        width: 30%;
+        background-color: #E8E8E8; }
+        #outerwrapper #centralcontent .sectionwrapper .section:first-child {
+          float: left; }
+        #outerwrapper #centralcontent .sectionwrapper .section:second-child {
+          float: none; }
+        #outerwrapper #centralcontent .sectionwrapper .section:last-child {
+          float: right; }
+        #outerwrapper #centralcontent .sectionwrapper .section p {
+          padding-bottom: 16px; }
+  #outerwrapper #footer {
+    height: 200px;
+    margin-bottom: 25px;
+    font-family: "Quicksand";
+    font-size: 14px;
+    width: 100%; }
+    #outerwrapper #footer p {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center; }
+  #outerwrapper #post {
+    width: 60%;
+    margin: auto;
+    background-color: #E8E8E8;
+    margin-top: 25px; }
+    #outerwrapper #post #title {
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      border-bottom: 1px solid #A9A9A9;
+      font-family: "Quicksand";
+      font-size: 30px;
+      margin: 0px; }
+    #outerwrapper #post #text {
+      padding: 0px 10px 10px 10px;
+      font-family: "Lora"; }
+
+/*# sourceMappingURL=style.css.map */
