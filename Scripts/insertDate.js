@@ -1,16 +1,20 @@
+/*jslint plusplus: true*/
+/*jshint onedef: true*/
+/*jshint onevar: true*/
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
-/*jslint plusplus: true*/
-/*jslint node: true*/
 
 $(document).ready(function () {
     "use strict";
-    var date = new Date(), location = document.getElementById("date"), node,
-        para = document.createElement("p");
+    var firstDate = new Date(), location = document.getElementById("date"),
+        timelocation = document.getElementById("time");
     
-    location.innerHTML = date.toDateString();
+    location.innerHTML = firstDate.toDateString();
+    timelocation.innerHTML = firstDate.toLocaleTimeString();
     
     window.setInterval(function () {
+        var date = new Date();
         location.innerHTML = date.toDateString();
+        timelocation.innerHTML = date.toLocaleTimeString();
     }, 1000);
 });
