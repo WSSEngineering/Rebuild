@@ -14,11 +14,12 @@ body {
       width: auto;
       font-size: 14px;
       display: inline-block; }
-    #outerwrapper #flagwrapper #date {
+    #outerwrapper #flagwrapper .date {
       font-size: 12px;
       width: 100%;
       height: 14px;
-      font-size: 14px; }
+      font-size: 14px;
+      margin: 5px; }
     #outerwrapper #flagwrapper #flag {
       margin: auto;
       font-size: 100px;
