@@ -1,0 +1,3 @@
+language: JAVASCRIPT
+rvm:
+- "0.1"
