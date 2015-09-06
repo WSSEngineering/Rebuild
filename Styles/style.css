@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Roboto+Slab|Lora|Lato);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Roboto+Slab|Lora|Lato|Source+Code+Pro);
 body {
   margin: 0px; }
 
@@ -19,7 +19,8 @@ body {
       width: 100%;
       height: 14px;
       font-size: 14px;
-      margin: 5px; }
+      margin: 5px;
+      font-family: "Consolas"; }
     #outerwrapper #flagwrapper #flag {
       margin: auto;
       font-size: 100px;
