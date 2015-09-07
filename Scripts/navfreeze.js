@@ -14,7 +14,7 @@ $(document).ready(function () {
         if (scrollTop > staticDistance) {
             $header.removeClass("header");
             $header.addClass("affix");
-            $central.css("margin-top", "80px");
+            $central.css("margin-top", "65px");
         } else {
             $header.removeClass("affix");
             $header.addClass("header");
