@@ -1,2 +1,9 @@
 ###WSS Rebuild
-Source for the West Side Story's website rebuild. This is version `0.1`, completed on September 6.
+
+
+###BuildLog
+####Sept.6 `v0.2`
+- Fine tuning position of elements. Changed social media icons. Changed main section color scheme to white on gray (instead of vice versa).
+
+####Sept.7 `v0.3`
+- Edit margins, sticky navbar, background colors back to white for testing, responsive design
